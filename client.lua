@@ -1,3 +1,8 @@
+--		Created by Wallbanged				--
+--		Custom Add-On Spawner V 1.0.0			--
+
+
+
 local menuPool = NativeUI.CreatePool()
 local mainMenu = NativeUI.CreateMenu('change me', "", 1420, 0) --  Enter Server Name/ Menu Name Here
 local submain = menuPool:AddSubMenu(mainMenu, 'Vehicle Spawner', "", 1420, 0)
