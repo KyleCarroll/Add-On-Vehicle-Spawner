@@ -167,6 +167,23 @@ end]]
 RegisterCommand('wbmenu', function() -- edit this line to change the command to open the menu
     mainMenu:Visible(not mainMenu:Visible())
 end, false)
+
+Citizen.CreateThread(function()
+
+    while true do
+
+        Citizen.Wait(0)
+
+        if IsControlJustPressed(1, 243) then -- ~ is pressed
+
+                    mainMenu:Visible(not mainMenu:Visible())
+
+                end
+
+            end
+
+    end, false)
+
 ------------------------------------------------DO NOT EDIT BELOW THIS LINE---------------------------------------------------------------
 
 function deleteVeh()
